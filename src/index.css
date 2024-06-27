@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+}
+
+/* Movie List Styles */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.movie-item h2 {
+  margin: 0 0 10px;
+}
+
+.movie-item p {
+  color: #666;
+}
+
+.movie-item button, .movie-item a {
+  margin: 5px 0;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+}
+
+.movie-item button:hover, .movie-item a:hover {
+  background: #0056b3;
+}
+
+/* Form Styles */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+form .cancel-button {
+  background: #dc3545;
+}
+
+form .cancel-button:hover {
+  background: #c82333;
+}
+
+/* Details Page Styles */
+.details-page {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.details-page p {
+  color: #666;
+}
+
+.details-page .rating, .details-page .review {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}

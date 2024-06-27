@@ -1,0 +1,25 @@
+{
+    "movies": [
+      {
+        "id": "1",
+        "title": "Inception",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "releaseYear": 2010,
+        "genre": "Sci-Fi",
+        "watched": false,
+        "rating": 5,
+        "review": "Amazing movie with a mind-bending plot!"
+      },
+      {
+        "id": "2",
+        "title": "The Matrix",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "releaseYear": 1999,
+        "genre": "Action",
+        "watched": true,
+        "rating": 4,
+        "review": "A groundbreaking film in the action genre."
+      }
+    ]
+  }
+  
